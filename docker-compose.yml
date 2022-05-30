@@ -1,0 +1,8 @@
+version: "3"
+services:
+  web:
+    image: linko
+    ports:
+      - "2000:2000"
+    environment:
+      NODE_ENV: production
